@@ -4,7 +4,11 @@
 }
 
 .completed{
+    color: #ccc;
     text-decoration: line-through;
+}
+.completed .total{
+    color: #ccc;
 }
 
 div{
