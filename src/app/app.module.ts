@@ -8,6 +8,7 @@ import { ItemsComponent } from './components/items/items.component';
 import { ItemComponent } from './components/item/item.component';
 import { TotalComponent } from './components/total/total.component';
 import { AdditemComponent } from './components/additem/additem.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -16,13 +17,10 @@ import { AdditemComponent } from './components/additem/additem.component';
     ItemsComponent,
     ItemComponent,
     TotalComponent,
-    AdditemComponent
+    AdditemComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
